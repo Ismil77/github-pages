@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Julia My Love</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            background-color: #ffe6e6;
+            color: #4a4a4a;
+            text-align: center;
+        }
+        header {
+            background-color: #ff9999;
+            padding: 20px 10px;
+            color: white;
+            font-size: 2.5em;
+            font-weight: bold;
+            text-shadow: 2px 2px #cc6666;
+        }
+        section {
+            padding: 20px;
+        }
+        .spruch {
+            font-size: 1.5em;
+            color: #ff4d4d;
+            font-style: italic;
+            margin: 20px 0;
+        }
+        .heart {
+            color: #ff1a1a;
+        }
+        footer {
+            background-color: #ffcccc;
+            padding: 15px 10px;
+            font-size: 0.9em;
+            color: #4a4a4a;
+        }
+        .button {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #ff6666;
+            color: white;
+            font-size: 1em;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        .button:hover {
+            background-color: #e65c5c;
+        }
+    </style>
+</head>
+<body>
+    <header>Julia My Love</header>
+    
+    <section>
+        <p class="spruch">
+            "Liebe ist nicht das, was man erwartet zu bekommen, <br>
+            sondern das, was man bereit ist zu geben."
+        </p>
+        <p>
+            Julia, du bist die Sonne, die meinen Tag erhellt, <br>
+            der Stern, der meine Nächte zum Funkeln bringt, <br>
+            und das Herz, das meinen Takt bestimmt. <br>
+            <span class="heart">❤️</span>
+        </p>
+        <a href="#contact" class="button">Kontaktiere mich</a>
+    </section>
+    
+    <footer id="contact">
+        <p>
+            Für dich immer da, Julia. <br>
+            Kontaktiere mich unter: <strong>liebe@julia.com</strong>
+        </p>
+        <p>&copy; 2024 Julia My Love</p>
+    </footer>
+</body>
+</html>
